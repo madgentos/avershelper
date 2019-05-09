@@ -1,0 +1,33 @@
+﻿<Window x:Class="avershelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:avershelper"
+        mc:Ignorable="d"
+        Title="Renamer" Height="400" Width="522.916" ResizeMode="NoResize" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <DockPanel  HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Width="450">
+            <Button Content="Файл" HorizontalAlignment="Left" VerticalAlignment="Center" Width="170" Click="Button_Click_File" Height="56" FontSize="20"/>
+            <Button Content="Ключ" VerticalAlignment="Center" Width="170" Height="56" FontSize="20" Click="Button_Click_Key" HorizontalAlignment="Right"/>
+        </DockPanel>
+        <DockPanel  HorizontalAlignment="Center" Margin="0,109,0,0" VerticalAlignment="Top" Width="450">
+            <DatePicker x:Name="datepicer" HorizontalAlignment="Left" VerticalAlignment="Center" SelectedDateChanged="DatePicker_SelectedDateChanged" Width="169"/>
+
+            <StackPanel HorizontalAlignment="Right" Height="91" VerticalAlignment="Top" Width="164" Grid.ColumnSpan="2">
+                <RadioButton Content="Повідомлення про збори" HorizontalAlignment="Left" VerticalAlignment="Top"  Checked="Povid_Pro_Zbor_RadioButton_Checked" IsChecked="True"/>
+                <RadioButton Content="Протоколи" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="Protocol_RadioButton_Checked"/>
+                <RadioButton Content="Результати перевірок" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="Rez_Per_RadioButton_Checked"/>
+                <RadioButton Content="Регулярна звітність" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="Reg_Zvit_RadioButton_Checked"/>
+                <RadioButton Content="Нерегулярна звітність" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="Ne_Reg_Zvit_RadioButton_Checked"/>
+                <RadioButton Content="Додаткова" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="Dodat_RadioButton_Checked"/>
+            </StackPanel>
+        </DockPanel>
+        <Button Content="Переименовать" HorizontalAlignment="Center" Margin="0,212,0,0" VerticalAlignment="Top" Width="450" Height="51" FontSize="20" Click="Button_Click_Rename"/>
+        <TextBox x:Name="titlebox" HorizontalAlignment="Center" Height="23" Margin="0,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Padding="0,2,0,0" Width="450"/>
+        <RichTextBox x:Name="richbox" HorizontalAlignment="Center" Height="80" Margin="0,278,0,0" VerticalAlignment="Top" Width="450">
+            <FlowDocument/>
+        </RichTextBox>
+
+    </Grid>
+</Window>

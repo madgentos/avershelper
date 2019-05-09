@@ -1,0 +1,15 @@
+e:\work\toha\avershelper\bin\Release\avershelper.exe.config
+e:\work\toha\avershelper\bin\Release\avershelper.exe
+e:\work\toha\avershelper\bin\Release\avershelper.pdb
+e:\work\toha\avershelper\obj\Release\avershelper.csprojAssemblyReference.cache
+e:\work\toha\avershelper\obj\Release\MainWindow.g.cs
+e:\work\toha\avershelper\obj\Release\App.g.cs
+e:\work\toha\avershelper\obj\Release\avershelper_MarkupCompile.cache
+e:\work\toha\avershelper\obj\Release\avershelper_MarkupCompile.lref
+e:\work\toha\avershelper\obj\Release\MainWindow.baml
+e:\work\toha\avershelper\obj\Release\avershelper.g.resources
+e:\work\toha\avershelper\obj\Release\avershelper.Properties.Resources.resources
+e:\work\toha\avershelper\obj\Release\avershelper.csproj.GenerateResource.cache
+e:\work\toha\avershelper\obj\Release\avershelper.csproj.CoreCompileInputs.cache
+e:\work\toha\avershelper\obj\Release\avershelper.exe
+e:\work\toha\avershelper\obj\Release\avershelper.pdb

@@ -1,0 +1,15 @@
+C:\Users\madgentos\source\repos\renamer\renamer\bin\Release\renamer.exe.config
+C:\Users\madgentos\source\repos\renamer\renamer\bin\Release\renamer.exe
+C:\Users\madgentos\source\repos\renamer\renamer\bin\Release\renamer.pdb
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\MainWindow.g.cs
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\App.g.cs
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer_MarkupCompile.cache
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer_MarkupCompile.lref
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\MainWindow.baml
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.g.resources
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.Properties.Resources.resources
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.csproj.GenerateResource.cache
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.csproj.CoreCompileInputs.cache
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.exe
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.pdb
+C:\Users\madgentos\source\repos\renamer\renamer\obj\Release\renamer.csprojAssemblyReference.cache
