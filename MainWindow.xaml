@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:avershelper"
         mc:Ignorable="d"
-        Title="Renamer" Height="400" Width="522.916" ResizeMode="NoResize" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen">
+        Title="AversHelper" Height="400" Width="522.916" ResizeMode="NoResize" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" Icon="rev2.ico">
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
         <DockPanel  HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Width="450">
             <Button Content="Файл" HorizontalAlignment="Left" VerticalAlignment="Center" Width="170" Click="Button_Click_File" Height="56" FontSize="20"/>
