@@ -23,9 +23,9 @@
                 <RadioButton Content="Додаткова" HorizontalAlignment="Left" VerticalAlignment="Top" Checked="Dodat_RadioButton_Checked"/>
             </StackPanel>
         </DockPanel>
-        <Button Content="Переименовать" HorizontalAlignment="Center" Margin="0,212,0,0" VerticalAlignment="Top" Width="450" Height="51" FontSize="20" Click="Button_Click_Rename"/>
+        <Button Content="Выполнить" HorizontalAlignment="Center" Margin="0,212,0,0" VerticalAlignment="Top" Width="450" Height="51" FontSize="20" Click="Button_Click_Rename"/>
         <TextBox x:Name="titlebox" HorizontalAlignment="Center" Height="23" Margin="0,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Padding="0,2,0,0" Width="450"/>
-        <RichTextBox x:Name="richbox" HorizontalAlignment="Center" Height="80" Margin="0,278,0,0" VerticalAlignment="Top" Width="450">
+        <RichTextBox x:Name="richbox" HorizontalAlignment="Center" Height="70" Margin="0,278,0,10" VerticalAlignment="Top" Width="450">
             <FlowDocument/>
         </RichTextBox>
 
